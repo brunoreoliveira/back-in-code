@@ -24,3 +24,6 @@
 .markdown-body :deep(code) {
   @apply px-1 py-0.5 rounded;
 }
+.dracula {
+  @apply py-2 px-4 rounded
+}
