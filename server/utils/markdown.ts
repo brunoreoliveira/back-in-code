@@ -8,7 +8,7 @@ let highlighter: Highlighter | null = null;
 async function buildHighlighter() {
   if (!highlighter) {
     highlighter = await getSingletonHighlighter({
-      themes: ['dracula'],
+      themes: ['one-dark-pro'],
       langs: ['ts', 'js', 'bash', 'json', 'sql', 'yaml', 'md']
     })
   }
@@ -31,7 +31,7 @@ export async function renderMarkdown(mdText: string) {
       try {
         return _highlither.codeToHtml(code, {
           lang: lang || 'text',
-          theme: 'dracula'
+          theme: 'one-dark-pro'
         })
       } catch (error) {
         return `<pre><code>${MarkdownIt().utils.escapeHtml(code)}</code></pre>`

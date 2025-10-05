@@ -68,7 +68,7 @@ watch(() => html.value, renderMermaids);
     @apply text-blue-600 underline underline-offset-4;
   }
   .markdown-body :deep(pre) {
-    @apply w-full my-4 p-6 rounded overflow-x-auto;
+    @apply w-[80%] m-auto p-6 rounded-2xl overflow-x-auto;
   }
   .markdown-body :deep(code) {
     @apply px-1 py-0.5 rounded;

@@ -1,0 +1,20 @@
+@font-face{
+  font-family:"InterVar";
+  src:url("../fonts/inter/InterVariable.woff2") format("woff2-variations");
+  font-weight:100 900; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"InterVar";
+  src:url("../fonts/inter/InterVariable-Italic.woff2") format("woff2-variations");
+  font-weight:100 900; font-style:italic; font-display:swap;
+}
+@font-face{
+  font-family:"Space Grotesk";
+  src:url("../fonts/space-grotesk/SpaceGrotesk[wght].woff2") format("woff2-variations");
+  font-weight:300 700; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"JetBrains Mono";
+  src:url("../fonts/jetbrains-mono/JetBrainsMono-Regular.woff2") format("woff2-variations");
+  font-weight:100 800; font-style:normal; font-display:swap;
+}

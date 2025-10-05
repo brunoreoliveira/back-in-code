@@ -1,14 +1,13 @@
 <template>
-  <ul>
-    <li v-for="article in articles" :key="article.slug" class="p-2">
-    <NuxtLink :to="`/posts/${article.slug}`">
-      <h1 class="text-5xl">{{ article.title }}</h1>
-      <h2 class="text-2xl">{{ article.summary }}</h2>
-    </NuxtLink>
-    </li>
-  </ul>
-</template>
+  <div>
+    
+    <!-- Container central -->
+    <div class="px-6 py-16 md:py-24 leading-relaxed">
 
-<script setup>
-  const {data: articles} = await useFetch('/api/posts')
-</script>
+      <!-- 🏠 HOME -->
+      <section id="home" class="mb-20 h-screen">
+        <h1>Aqui é a home</h1>
+      </section>
+    </div>
+  </div>
+</template>
