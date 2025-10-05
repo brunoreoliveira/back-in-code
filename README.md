@@ -40,15 +40,6 @@ summary: "Post de teste renderizado via markdown-it."
 ---
 ```
 
----
-
-## ⚙️ Variáveis de Ambiente
-NUXT_PUBLIC_SITE_NAME="Back in Code"
-
-obs: As variáveis sensíveis são gerenciadas no GitLab CI/CD como protected variables.
-
----
-
 ## 📦 Rodando o Projeto
 ```bash
 # instalar dependências
@@ -60,16 +51,6 @@ pnpm dev
 # build de produção
 pnpm build && pnpm preview
 ```
----
-
-## 📖 Manifesto
-
-Back in Code não é só um blog, é um movimento:
-Tornar o backend acessível para quem está além do CRUD
-Ensinar com clareza, sem arrogância
-Registrar cada aprendizado (acertos e erros)
-Criar base para comunidade futura de devs backend
-
 ---
 
 ## 🛠️ Roadmap
