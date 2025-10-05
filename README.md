@@ -1,8 +1,6 @@
 # Back in Code
 
-> **Um manifesto e um espaço para devs iniciantes em backend.**  
-> Aqui eu aprendo e ensino, sem atalhos mágicos, traduzindo conceitos complexos em passos claros.  
-> Projeto pessoal que acompanha meu canal no YouTube e evolui como blog/documentação técnica.
+> **Meu canto na inernet.**  
 
 ---
 
@@ -22,7 +20,6 @@
 ## ✨ Visão Geral
 
 - **Blog + YouTube**: todo código que aparece no canal também fica registrado aqui.  
-- **Manifesto**: a página inicial é um chamado para devs juniores no backend, mostrando que não estão sozinhos.  
 - **Minimalismo**: interface inspirada em FreeCodeCamp e DigitalOcean Blog, fácil de ler em longas sessões.  
 - **Cloudflare como Router**: o projeto usa Cloudflare para roteamento inteligente de rotas, segurança e performance global.  
 - **Open Knowledge**: posts escritos em Markdown com front-matter YAML para metadados.
